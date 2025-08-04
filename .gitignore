@@ -1,33 +1,42 @@
-HELP.md
+# Java and Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.ear
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Logs
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Spring Boot DevTools
+.spring-boot-devtools.properties
+
+# IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
+*.iws
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse/STS
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.sts4-cache/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Application properties (optional: only if you want to hide secrets)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Git
+.git/
